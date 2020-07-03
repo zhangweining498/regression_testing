@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<interface>
+    <url name="payAddress">
+        <one>api</one>
+        <two>v1</two>
+        <action>payAddress</action>
+    </url>
+
+    <url name="userInfo">
+        <one>api</one>
+        <action>userInfo</action>
+    </url>
+
+    <url name="redBag">
+        <one>api</one>
+        <two>v1</two>
+        <action>redbag</action>
+    </url>
+</interface>

@@ -1,0 +1,13 @@
+user/testpayaddress
+user/testuserInfo
+user/testredBag
+#user/testLoginFB
+#user/testLogout
+#user/testAccountSetting
+#user/testUpdatePassword
+#user/testUploadImg
+#user/testGetAddressList
+#user/testGetAddress
+#product/testGetProductInfo
+#user/testAddAddress
+#user/testDeleteAddress
