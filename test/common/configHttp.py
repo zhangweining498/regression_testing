@@ -1,7 +1,7 @@
 import readConfig
 from common.Log import MyLog as MyLog
 from common.common import get_headers
-import requests
+import requests,json
 
 
 localReadConfig = readConfig.ReadConfig()
@@ -67,10 +67,11 @@ class ConfigHttp:
         '''
         try:
             response = requests.get(self.url, headers = self.headers)
-
+            res_data = json.loads(response.text)
+            self.logger.info(res_data)
             return response
-        except:
-            self.logger.error('error')
+        except Exception as ex:
+            self.logger.error(ex)
             return None
 
     def request_json_post(self):
@@ -80,6 +81,8 @@ class ConfigHttp:
         '''
         try:
             response = requests.post(self.url, headers = self.headers, json = self.data)
+            res_data = json.loads(response.text)
+            self.logger.info(res_data)
             return response
         except Exception as ex:
             self.logger.error(ex)

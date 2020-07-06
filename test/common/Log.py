@@ -93,6 +93,7 @@ class Log:
             fb.write(result)
         except FileNotFoundError as ex:
             logger.error(str(ex))
+        fb.close()
 
 
 class MyLog:

@@ -44,7 +44,6 @@ class UserInfo(unittest.TestCase):
 
         # test interface
         self.return_json = configHttp.request_get()
-        print(self.return_json.text)
 
 
         self.checkResult()

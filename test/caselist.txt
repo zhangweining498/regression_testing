@@ -1,6 +1,6 @@
 user/testpayaddress
 user/testuserInfo
-user/testredBag
+#user/testredBag
 #user/testLoginFB
 #user/testLogout
 #user/testAccountSetting
