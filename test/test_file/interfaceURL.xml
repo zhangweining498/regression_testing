@@ -16,4 +16,10 @@
         <two>v1</two>
         <action>redbag</action>
     </url>
+
+    <url name="balance">
+        <one>api</one>
+        <two>v1</two>
+        <action>balance</action>
+    </url>
 </interface>

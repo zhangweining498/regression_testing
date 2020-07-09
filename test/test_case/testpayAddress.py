@@ -56,6 +56,10 @@ class transfer_accounts(unittest.TestCase):
 
 
     def testpayAddress(self):
+        '''
+        地址付款
+        :return:
+        '''
         self.url = common.get_url_from_xml('payAddress')
 
         # set url

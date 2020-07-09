@@ -49,6 +49,10 @@ class RedBag(unittest.TestCase):
         self.logger = self.log.get_logger()
 
     def testRedBag(self):
+        '''
+        发红包
+        :return:
+        '''
         self.url = common.get_url_from_xml('redBag')
 
         # set url
