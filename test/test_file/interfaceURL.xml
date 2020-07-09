@@ -22,4 +22,16 @@
         <two>v1</two>
         <action>balance</action>
     </url>
+
+    <url name="detail">
+        <one>api</one>
+        <two>v1</two>
+        <action>detail</action>
+    </url>
+
+    <url name="flow">
+        <one>api</one>
+        <two>v1</two>
+        <action>flow</action>
+    </url>
 </interface>

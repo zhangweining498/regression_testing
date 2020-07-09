@@ -1,6 +1,4 @@
-from test_case.testpayAddress import transfer_accounts
 import unittest
-from datetime import datetime
 from HTMLTestRunner_PY3.HTMLTestRunner_PY3 import HTMLTestRunner
 import readConfig
 from common.Log import MyLog
@@ -16,7 +14,6 @@ class RunTest:
         resultPath = log.get_report_path()
         self.caseListFile = os.path.join(readConfig.proDir,'caselist.txt')
         self.caseFile = os.path.join(readConfig.proDir,'test_case')
-
         self.caseList = []
 
     def set_case_list(self):

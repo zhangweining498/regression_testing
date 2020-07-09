@@ -60,19 +60,29 @@ class ConfigHttp:
         """
         self.data = data
 
+    def set_params(self,params):
+        '''
+        set params
+        :param params:
+        :return:
+        '''
+        self.params = params
+
     def request_get(self):
         '''
         defind get method
         :return:
         '''
         try:
-            response = requests.get(self.url, headers = self.headers)
+            response = requests.get(self.url, headers = self.headers, params=self.params)
             res_data = json.loads(response.text)
             self.logger.info(res_data)
             return response
         except Exception as ex:
             self.logger.error(ex)
             return None
+
+
 
     def request_json_post(self):
         '''

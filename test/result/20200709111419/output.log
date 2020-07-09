@@ -1,0 +1,1 @@
+2020-07-09 11:14:24,865 - root - INFO - {'code': 0, 'next_do': 'todo', 'show_kind': 1, 'data': {'BSV': {'main_balance': 590090, 'deposit_balance': 0, 'frozen_balance': 0}, 'ETH': {'main_balance': 17739020, 'deposit_balance': 0, 'frozen_balance': 0}, 'BTC': {'main_balance': 180705, 'deposit_balance': 0, 'frozen_balance': 0}}, 'msg': 'ok'}
