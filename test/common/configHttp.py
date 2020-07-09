@@ -76,7 +76,7 @@ class ConfigHttp:
         try:
             response = requests.get(self.url, headers = self.headers, params=self.params)
             res_data = json.loads(response.text)
-            self.logger.info(res_data)
+            self.logger.info(res_data + '\n')
             return response
         except Exception as ex:
             self.logger.error(ex)
